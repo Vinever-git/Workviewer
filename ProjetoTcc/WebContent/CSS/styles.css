@@ -1,0 +1,98 @@
+body{
+
+	background: #d2d2c1 url("C:\Users\yurib\eclipse-workspace\ProjetoTcc\WebContent\CSS\fundo.jpg");
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+.corpo{
+    display: flex;
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.colorblue {
+    color: #47c6ce;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #47c6ce;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #47c6ce;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {background-color:  #47c6ce;}
+
+.container{
+	background-color: silver;
+	border-radius: 10px;
+	padding: 100px;
+	
+}
+.mascara {
+  padding: 50px;
+  border: 1px solid #4CAF50;
+  background-color: lightblue;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
